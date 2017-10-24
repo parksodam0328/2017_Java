@@ -33,13 +33,14 @@ public class V_13 extends JFrame {
 			JScrollPane sp = new JScrollPane(ta2, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 			p2.add(sp);
 			cont.add(p2, BorderLayout.CENTER);
-			cont.add(p3, BorderLayout.SOUTH);
+			
 			JButton save = new JButton("저장");
 			JButton delete = new JButton("삭제");
 			JButton update = new JButton("수정");
 			p3.add(save);
 			p3.add(delete);
 			p3.add(update);
+			cont.add(p3, BorderLayout.SOUTH);
 			//setSize(300,300);
 			pack(); //컴포넌트에 맞게 사이즈 조절
 			setVisible(true);
