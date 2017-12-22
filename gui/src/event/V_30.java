@@ -93,7 +93,7 @@ public class V_30 extends JFrame implements ActionListener{
 			p5.add(bt_save);
 			p5.add(bt_delete);
 			p5.add(bt_modify);
-			p6.setLayout(new GridLayout());
+			p6.setLayout(new GridLayout(4,1));
 			p6.setBackground(Color.yellow);
 			p6.add(p2);
 			p6.add(p3);
